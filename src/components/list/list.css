@@ -1,0 +1,49 @@
+.l {
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.l-title {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 50px;
+
+}
+
+.l-wrapper {
+    position: relative;
+}
+
+.l-arrow {
+
+    background-color: rgba(22, 22, 22, 0.5);
+    color: white;
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+    width: 50px;
+    height: 100%;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.l-container {
+    display: flex;
+    margin-left: 50px;
+    width: max-content;
+    margin-top: 10px;
+    transform: translateX(0px);
+    transition: all ease 1s;
+
+}
